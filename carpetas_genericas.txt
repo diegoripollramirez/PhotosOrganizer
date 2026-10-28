@@ -1,0 +1,80 @@
+# ══════════════════════════════════════════════════════════════
+#  CARPETAS GENÉRICAS
+#
+#  Los nombres de esta lista NO se guardan como etiqueta de álbum
+#  al mover las fotos a la maestra (ni cuentan como "álbum" al
+#  elegir qué copia de un duplicado conservar).
+#  Cualquier otra carpeta, p. ej. "Roma 2015", sí se guarda.
+#
+#  · Un nombre por línea, sin distinguir mayúsculas.
+#  · Se compara con el nombre COMPLETO de la carpeta.
+#  · Comodines:  *  cualquier texto
+#                ?  un carácter cualquiera
+#                [0-9]  un dígito
+#  · Las líneas que empiezan por # son comentarios.
+#
+#  Puedes añadir o quitar nombres libremente. Por ejemplo, si
+#  quieres que "WhatsApp" sí se guarde como etiqueta, borra esa
+#  línea (o ponle # delante).
+# ══════════════════════════════════════════════════════════════
+
+# ── Exportaciones de servicios ──
+takeout
+takeout-*
+google fotos
+google photos
+amazon fotos
+amazon photos
+amazon drive
+icloud photos
+extraido_zips
+
+# ── Carpetas por año o fecha ──
+photos from [0-9][0-9][0-9][0-9]
+fotos de [0-9][0-9][0-9][0-9]
+[0-9][0-9][0-9][0-9]
+[0-9][0-9][0-9][0-9]-[0-9][0-9]
+[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]
+[0-9][0-9][0-9][0-9]_[0-9][0-9]_[0-9][0-9]
+[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]
+
+# ── Nombres sin significado ──
+untitled*
+sin título*
+sin titulo*
+nueva carpeta*
+new folder*
+recuperados
+duplicados_antiguos
+
+# ── Nombres genéricos de fotos ──
+fotos
+photos
+pictures
+images
+imágenes
+imagenes
+camera
+cámara
+camara
+camera roll
+carrete
+screenshots
+capturas
+capturas de pantalla
+descargas
+downloads
+
+# ── Origen (móvil, apps) ──
+iphone
+android
+whatsapp
+whatsapp images
+whatsapp video
+whatsapp imágenes
+telegram
+
+# ── Carpetas de cámara o móvil ──
+dcim
+[0-9][0-9][0-9]apple
+1[0-9][0-9]?????
